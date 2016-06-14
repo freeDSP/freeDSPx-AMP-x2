@@ -4,7 +4,7 @@ WORK IN PROGRESS - DO NOT BUILT!
 
 MAIN COORDINATOR: [ssMMnn](https://github.com/ssMMnn)
 
-Class-D amplification module designed for use with the freeDSP. Based on TI's TAS5760M chip. Supports freeDSP standart I2S expansion connector. Does not support TDM protocol only standart stereo I2S.
+Class-D amplification module designed for use with the freeDSP. Based on TI's TAS5760M chip. Supports freeDSP standard I2S expansion connector. Does not support TDM protocol only standard stereo I2S.
 
 ## License
 
