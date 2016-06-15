@@ -1,6 +1,6 @@
 # freeDSPx-AMP-I2S
 
-WORK IN PROGRESS - DO NOT BUILT!
+WORK IN PROGRESS - DO NOT BUILD!
 
 MAIN COORDINATOR: [ssMMnn](https://github.com/ssMMnn)
 
