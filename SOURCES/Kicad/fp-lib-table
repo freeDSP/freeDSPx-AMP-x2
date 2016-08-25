@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MyFootprints)(type KiCad)(uri J:\sMn\Uni\SE6\Hauptseminar\AMPModul_final\AMPModul\Library\MyFootprints.pretty)(options "")(descr ""))
+)

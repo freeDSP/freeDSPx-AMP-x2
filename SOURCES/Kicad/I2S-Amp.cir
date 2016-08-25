@@ -1,0 +1,48 @@
+* C:\Users\Eddy\Documents\Verstärkermodul\Verstärkermodul.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 30.05.2016 20:55:40
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+D3  Net-_C8-Pad2_ Net-_C5-Pad1_ Net-_C5-Pad2_ Net-_C6-Pad2_ Net-_D3-Pad5_ Net-_D3-Pad6_ GND GND +3V3 GND GND Net-_D3-Pad12_ ? ? ? ? GND ? ? ? ? ? ? ? ? ? ? ? ? ? Net-_D3-Pad31_ ? VCC Net-_C14-Pad2_ /SPK_OUTB+ GND /SPK_OUTB- Net-_C15-Pad2_ Net-_C9-Pad2_ /SPK_OUTA- GND /SPK_OUTA+ Net-_C13-Pad2_ VCC VCC VCC GND Net-_C10-Pad1_ Net-_D3-Pad31_ TAS5760MDCAR		
+RV1  Net-_C10-Pad1_ Net-_C8-Pad2_ GND 100k POT		
+C10  Net-_C10-Pad1_ GND 1uF/16V		
+C8  GND Net-_C8-Pad2_ 1uF/16V		
+C6  Net-_C5-Pad2_ Net-_C6-Pad2_ 1uF/16V		
+C5  Net-_C5-Pad1_ Net-_C5-Pad2_ 1uF/16V		
+C4  +3V3 GND 1uF/16V		
+C16  ? GND 4,7uF/50V		
+C11  ? GND 0,1uF/50V		
+C18  VCC GND 470uF/50V		
+C13  /SPK_OUTA+ Net-_C13-Pad2_ 0,22uF/25V		
+C17  ? GND 4,7uF/50V		
+C12  ? GND 0,1uF/50V		
+C9  /SPK_OUTA- Net-_C9-Pad2_ 0,22uF/25V		
+C15  /SPK_OUTB- Net-_C15-Pad2_ 0,22uF/25V		
+C14  /SPK_OUTB+ Net-_C14-Pad2_ 0,22uF/25V		
+L1  /SPK_OUTA+ Net-_C19-Pad1_ 10uH/4,5A		
+L2  /SPK_OUTA- Net-_C20-Pad1_ 10uH/4,5A		
+L3  /SPK_OUTB- Net-_C21-Pad1_ 10uH/4,5A		
+L4  /SPK_OUTB+ Net-_C22-Pad1_ 10uH/4,5A		
+C19  Net-_C19-Pad1_ GND 0,68uF/50V		
+C20  Net-_C20-Pad1_ GND 0,68uF/50V		
+C21  Net-_C21-Pad1_ GND 0,68uF/50V		
+C22  Net-_C22-Pad1_ GND 0,68uF/50V		
+U2  Net-_R3-Pad1_ Net-_C7-Pad1_ VDD LM317_SOT223		
+C3  VDD GND 0,1uF		
+C7  Net-_C7-Pad1_ GND 0,1uF		
+R5  Net-_R3-Pad1_ Net-_C7-Pad1_ 240		
+R3  Net-_R3-Pad1_ GND 392		
+D1  Net-_D1-Pad1_ +3V3 LED_RED		
+C1  Net-_C1-Pad1_ GND 1uF/16V		
+C2  Net-_C2-Pad1_ GND 1uF/16V		
+R1  +3V3 Net-_C1-Pad1_ 100k		
+R2  Net-_D3-Pad6_ Net-_C2-Pad1_ 100k		
+U1  Net-_C1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad2_ Net-_D3-Pad6_ Net-_C2-Pad1_ Net-_D3-Pad12_ GND ? ? ? ? ? ? +3V3 SN74LVC14ADG4		
+R4  Net-_D1-Pad1_ Net-_D3-Pad5_ 392		
+D2  Net-_D2-Pad1_ Net-_C7-Pad1_ LED_GRN		
+R6  Net-_D2-Pad1_ GND 392		
+
+.end
