@@ -1,10 +1,12 @@
-# freeDSPx-AMP-I2S
+# freeDSPx-AMP
 
-WORK IN PROGRESS - DO NOT BUILD!
+BOARD STATUS: READY TO BE BUILT
 
 MAIN COORDINATOR: [ssMMnn](https://github.com/ssMMnn)
 
 Class-D amplification module designed for use with the freeDSP. Based on TI's TAS5760M chip. Supports freeDSP standard I2S expansion connector. Does not support TDM protocol only standard stereo I2S.
+
+Further documentation will be added soon ...
 
 ## License
 
