@@ -1,4 +1,4 @@
-# freeDSPx-AMP
+# freeDSPx AMP x2
 
 BOARD STATUS: READY TO BE BUILT
 
